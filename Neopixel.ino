@@ -14,12 +14,12 @@
 
 #define PIN 13
 
-#define WIFI_SSID "Dialog"
-#define WIFI_PASSWORD "dinith123"
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
-#define API_KEY "AIzaSyCoOihCtd3k3OcdkEG1dQSsTMZx_J8J_h4"
+#define API_KEY "YOUR_FIREBASE_PROJECT_API_KEY"
 
-#define DATABASE_URL "neopixelnew-default-rtdb.europe-west1.firebasedatabase.app/"
+#define DATABASE_URL "YOUR_FIREBASE_PROJECT_DATABASE_URL" //Enter your database url without "https://".
 
 FirebaseData fbdo;
 
@@ -56,7 +56,7 @@ void setup() {
     delay(300);
   }
   Serial.println();
-  Serial.println("Connected");
+  Serial.println("Connected!");
 
   config.api_key = API_KEY;
 
@@ -108,3 +108,6 @@ void loop() {
     }
   }
 }
+
+/*
+Subscribe Arduino classroom Youtube channel : www.youtube.com/Arduinoclassroom
